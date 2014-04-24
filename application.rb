@@ -1,7 +1,7 @@
 require 'sinatra/base'
 
 class Application < Sinatra::Application
-  def initialize
-
+  get '/' do
+    erb :index
   end
 end
